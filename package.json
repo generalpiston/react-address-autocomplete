@@ -1,0 +1,30 @@
+{
+  "name": "react-address-autocomplete",
+  "description": "MapZen backed autocomplete with react",
+  "version": "0.5.0",
+  "main": "lib/index.js",
+  "dependencies": {
+    "addressit": "^1.4.0",
+    "classnames": "^2.2.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abec/react-address-autocomplete.git"
+  },
+  "keywords": [
+    "react",
+    "mapzen",
+    "autocomplete"
+  ],
+  "author": "Abraham Elmahrek <abraham@elmahrek.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/abec/react-address-autocomplete/issues"
+  },
+  "homepage": "https://github.com/abec/react-address-autocomplete#readme"
+}
