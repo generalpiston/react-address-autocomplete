@@ -144,7 +144,7 @@ export default class AddressAutocomplete extends React.Component {
         {this.renderStart()}
         <div className={cx({ "address-autocomplete-input-container": true })}>
           <input
-              {..._.omit(this.props, "start", "end", "search", "latitude", "longitude", "apiKey", "url", "type", "value", "ref", "onFocus", "onBlur", "onChange", "children")}
+              {..._.omit(this.props, "start", "end", "search", "latitude", "longitude", "apiKey", "url", "type", "value", "ref", "forceOpen", "onFocus", "onBlur", "onChange", "children")}
               type="search"
               value={this.props.value.search}
               onChange={(e) => {
