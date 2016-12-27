@@ -1,7 +1,7 @@
 {
   "name": "react-address-autocomplete",
   "description": "MapZen backed autocomplete with react",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "main": "lib/index.js",
   "dependencies": {
     "addressit": "^1.4.0",
