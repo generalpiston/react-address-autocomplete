@@ -22,7 +22,7 @@ export default class AddressAutocomplete extends React.Component {
       longitude: React.PropTypes.number.isRequired
     }).isRequired,
     onChange: React.PropTypes.func.isRequired,
-    forceOpen: React.PropTypes.boolean.isRequired,
+    forceOpen: React.PropTypes.bool.isRequired,
 
     listClassName: React.PropTypes.string
   };
