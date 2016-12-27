@@ -22,6 +22,7 @@ export default class AddressAutocomplete extends React.Component {
       longitude: React.PropTypes.number.isRequired
     }).isRequired,
     onChange: React.PropTypes.func.isRequired,
+    forceOpen: React.PropTypes.boolean.isRequired,
 
     listClassName: React.PropTypes.string
   };
@@ -33,6 +34,7 @@ export default class AddressAutocomplete extends React.Component {
       latitude: Infinity,
       longitude: Infinity
     },
+    forceOpen: false,
     onChange: () => {}
   };
 
@@ -176,7 +178,7 @@ export default class AddressAutocomplete extends React.Component {
               className="hide"
               readOnly />
           <AddressAutocompleteList className={this.props.listClassName}
-              show={this.state.status == STATUSES.AUTOCOMPLETE}
+              show={this.state.status == STATUSES.AUTOCOMPLETE || this.props.forceOpen}
               autocomplete={this.state.autocomplete}
               selected={this.state.focus}
               onSelect={(index) => this.fill(index)} />
