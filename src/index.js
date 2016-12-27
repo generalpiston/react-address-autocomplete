@@ -125,7 +125,7 @@ export default class AddressAutocomplete extends React.Component {
 
   render() {
     return (
-      <div className={cx({ "map-container": true })}
+      <div className={cx({ "address-autocomplete-container": true })}
           onFocusCapture={(e) => {
             if (this.state.status == STATUSES.UNFOCUSED) {
               this.setState({ status: STATUSES.FOCUSED });
@@ -140,7 +140,7 @@ export default class AddressAutocomplete extends React.Component {
             e.stopPropagation()
           }}>
         {this.renderStart()}
-        <div className={cx({ "map-input-container": true })}>
+        <div className={cx({ "address-autocomplete-input-container": true })}>
           <input
               {..._.omit(this.props, "start", "end", "search", "latitude", "longitude", "apiKey", "url", "type", "value", "ref", "onFocus", "onBlur", "onChange", "children")}
               type="search"
