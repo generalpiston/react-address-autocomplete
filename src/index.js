@@ -4,6 +4,8 @@ import React from 'react';
 import cx from 'classnames';
 import {parseAddress, formatAddress} from './utils.js';
 
+import './styles/autocomplete.scss';
+
 
 const STATUSES = {
   "UNFOCUSED": 0x0,
@@ -65,6 +67,7 @@ export default class AddressAutocomplete extends React.Component {
 
     if (data) {
       this.props.onChange({
+        data: data,
         search: data.properties.label,
         latitude: data.geometry.coordinates[1],
         longitude: data.geometry.coordinates[0]
