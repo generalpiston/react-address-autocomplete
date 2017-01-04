@@ -32,6 +32,8 @@ class SearchPage extends React.Component {
 }
 ```
 
+Check out a demo [here](https://abec.github.io/react-address-autocomplete/)
+
 ## Style Guide
 
 Use the following classes as a guide to styling the search input as well as the autocomplete list.

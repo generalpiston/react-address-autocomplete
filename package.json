@@ -16,12 +16,15 @@
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.26.1",
     "node-sass": "^4.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:docs": "webpack --config webpack.docs.config.js"
   },
   "repository": {
     "type": "git",
@@ -37,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/abec/react-address-autocomplete/issues"
   },
-  "homepage": "https://github.com/abec/react-address-autocomplete#readme",
-  "peerDependencies": {
-    "react": "^15.4.1"
-  }
+  "homepage": "https://github.com/abec/react-address-autocomplete#readme"
 }
