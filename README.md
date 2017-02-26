@@ -1,4 +1,7 @@
-# react-address-autocomplete
+# react-address-autocomplete (Deprecated)
+
+Deprecated in favor of [react-autosuggest-geocoder](https://github.com/abec/react-autosuggest-geocoder)
+
 Controlled MapZen address autocomplete component for react.
 
 ## Example
